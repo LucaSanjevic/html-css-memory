@@ -1,11 +1,20 @@
-*{
+html {
+    position: relative;
+    background-color: rgb(88, 150, 221);
+}
+    .container{
    margin: 0%;
    padding: 0;
    box-sizing: border-box;
 }
+h1{
+    color: white;
+    text-align: center;
+}
 .container {
    width: 55%;
    margin: auto;
+   padding-top:10px;
 }
 
 .row {
@@ -14,6 +23,7 @@
 }
 
 .carta {
+    background-color: white;
     height: 220px;
     width: 22%;
     background-image: url("img/pattern.png");
@@ -69,8 +79,8 @@
 h4{
    visibility: hidden;
    position: absolute;
-   bottom: 10px;
-   font-family: ;
+   bottom: -10px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
    font-size: 180%;
    font-weight: 300;
    text-align: center;
@@ -78,4 +88,7 @@ h4{
 }
 .carta:hover h4{
     visibility: visible;
+}
+footer > h4 {
+    text-align: center;
 }
