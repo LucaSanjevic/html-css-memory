@@ -85,6 +85,24 @@ h4{
    text-align: center;
    width: 100%;
 }
+.arancione {
+    color: orangered;
+}
+.green {
+    color: green;
+}
+.blue {
+    color: blue;
+}
+.red {
+    color: red;
+}
+.yellow {
+    color: rgb(216, 216, 45);
+}
+.purple{
+    color: purple;
+}
 .carta:hover h4{
     visibility: visible;
 }
