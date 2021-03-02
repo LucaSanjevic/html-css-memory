@@ -2,7 +2,7 @@ html {
     position: relative;
     background-color: rgb(88, 150, 221);
 }
-    .container{
+.container{
    margin: 0%;
    padding: 0;
    box-sizing: border-box;
@@ -19,7 +19,6 @@ h1{
 
 .row {
     width: 100%;
-    border: 1px solid black;
 }
 
 .carta {
