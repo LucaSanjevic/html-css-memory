@@ -2,15 +2,17 @@ html {
     position: relative;
     background-color: rgb(88, 150, 221);
 }
-.container{
-   margin: 0%;
-   padding: 0;
-   box-sizing: border-box;
-}
+
 h1{
     color: white;
     text-align: center;
 }
+
+*{
+   padding: 0;
+   box-sizing: border-box;
+}
+
 .container {
    width: 55%;
    margin: auto;
@@ -34,6 +36,12 @@ h1{
     margin-left: 5px;
     margin-right: 5px;
     position: relative;
+}
+.tram-visibile {
+    background-image: url("img/noun_Tram_3134750.png");
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: top;
 }
 .air_balloon:hover {
      background-image: url("img/noun_air_balloon_3134741.png");
@@ -75,6 +83,7 @@ h1{
     background-size: 85%;
     background-position: top;
 }
+
 h4{
    visibility: hidden;
    position: absolute;
@@ -84,6 +93,9 @@ h4{
    font-weight: 300;
    text-align: center;
    width: 100%;
+}
+.tram-visibile > h4 {
+    visibility: visible;
 }
 .arancione {
     color: orangered;
